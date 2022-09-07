@@ -32,19 +32,21 @@ spec:
           securityContext:
             {{- toYaml .Values.securityContext | nindent 12 }}
           image: "{{ .Values.image.repository }}:{{ .Values.image.tag | default .Chart.AppVersion }}"
+          env:
+          - name: SERVICE_PORT
+            value: {{ .Values.service.port }}
           imagePullPolicy: {{ .Values.image.pullPolicy }}
           ports:
             - name: http
-              containerPort: 5683
+              containerPort: {{ .Values.service.port }}
               protocol: TCP
           livenessProbe:
-            httpGet:
-              path: /health
-              port: 5683
-          readinessProbe:
-            httpGet:
-              path: /health
-              port: 5683
+            exec:
+              command:
+              - python3.10
+              - /provisioning_server/src/health_check.py
+            initialDelaySeconds: 5
+            periodSeconds: 60
           resources:
             {{- toYaml .Values.resources | nindent 12 }}
       {{- with .Values.nodeSelector }}

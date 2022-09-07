@@ -3,7 +3,7 @@ entries:
   provisioning_server:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-09-07T06:05:51.005322959Z"
+    created: "2022-09-07T07:33:01.991093022Z"
     description: A Helm chart for Kubernetes
     digest: f26ffde00a05528d6da23902002650a8fc4e5b8c0828b06e3b9e9be1b4063f0e
     name: provisioning_server
@@ -13,7 +13,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-09-07T06:05:51.004892863Z"
+    created: "2022-09-07T07:33:01.990630948Z"
     description: A Helm chart for Kubernetes
     digest: ce4f800c8b1b3e647de8a2e17c67e72e3c02b18782d55f5674efdc6c4eea7297
     name: provisioning_server
@@ -23,7 +23,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-09-07T06:05:51.004513913Z"
+    created: "2022-09-07T07:33:01.990150388Z"
     description: A Helm chart for Kubernetes
     digest: 246fe5b7c822def035705d23b4e05f6bd1b6905c6b840f730507fa7e51b2a3ec
     name: provisioning_server
@@ -34,7 +34,17 @@ entries:
   prsvr:
   - apiVersion: v2
     appVersion: "5"
-    created: "2022-09-07T06:05:51.005762168Z"
+    created: "2022-09-07T07:33:01.99211725Z"
+    description: A Helm chart for Kubernetes
+    digest: 07f385eafc05fce09430d83e73945ffd3f13a918e413349aa592769b6c4457c2
+    name: prsvr
+    type: application
+    urls:
+    - https://vinothinfinity.github.io/provisioning-server-helm/prsvr-0.1.11.tgz
+    version: 0.1.11
+  - apiVersion: v2
+    appVersion: "5"
+    created: "2022-09-07T07:33:01.991650295Z"
     description: A Helm chart for Kubernetes
     digest: 608c4ec552bfd070d1f43632fb8e3f80d16784dbda519817068194ec0beb100d
     name: prsvr
@@ -44,7 +54,7 @@ entries:
     version: 0.1.10
   - apiVersion: v2
     appVersion: "5"
-    created: "2022-09-07T06:05:51.007945701Z"
+    created: "2022-09-07T07:33:01.994103251Z"
     description: A Helm chart for Kubernetes
     digest: 744036a47ec280fe916c362b600da676b7f0c93827a9079478d6d41bdae33f7d
     name: prsvr
@@ -54,7 +64,7 @@ entries:
     version: 0.1.8
   - apiVersion: v2
     appVersion: "2"
-    created: "2022-09-07T06:05:51.007473252Z"
+    created: "2022-09-07T07:33:01.993694807Z"
     description: A Helm chart for Kubernetes
     digest: f15575a0f82141c3af7f2dbe998f4cf21311eea4948a0437a86914363c1336e7
     name: prsvr
@@ -64,7 +74,7 @@ entries:
     version: 0.1.7
   - apiVersion: v2
     appVersion: "2"
-    created: "2022-09-07T06:05:51.006877766Z"
+    created: "2022-09-07T07:33:01.993311317Z"
     description: A Helm chart for Kubernetes
     digest: 30a342470fafeae3810e1cccc43d62042e5460366fc0ec5695c3dc916bf58afe
     name: prsvr
@@ -74,7 +84,7 @@ entries:
     version: 0.1.6
   - apiVersion: v2
     appVersion: "2"
-    created: "2022-09-07T06:05:51.006481868Z"
+    created: "2022-09-07T07:33:01.992890858Z"
     description: A Helm chart for Kubernetes
     digest: 39cc584256bcfcd5added3dba8009e84d34be8bdfd4a1791aef978d5767f8b0c
     name: prsvr
@@ -84,7 +94,7 @@ entries:
     version: 0.1.5
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-09-07T06:05:51.006125574Z"
+    created: "2022-09-07T07:33:01.992519479Z"
     description: A Helm chart for Kubernetes
     digest: 7dd76014cedec50282070bda71b622e62918b4196855e37b060ed33d472b528f
     name: prsvr
@@ -92,4 +102,4 @@ entries:
     urls:
     - https://vinothinfinity.github.io/provisioning-server-helm/prsvr-0.1.4.tgz
     version: 0.1.4
-generated: "2022-09-07T06:05:51.003940991Z"
+generated: "2022-09-07T07:33:01.989299956Z"
